@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ec1699e-10d6-4380-9ef2-125f10a25095" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Platforms Scripts/ScriptsBoom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Platforms Scripts/PlatformSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera &amp; Background Scripts/Repeater.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Panel/Scrolling.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera &amp; Background Scripts/Parallax.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/GameMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera &amp; Background Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/GameManger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Platforms Scripts/PlatformsScripts.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/ScriptsBoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyPlatforms.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptsBoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Platforms Scripts/PlatformsScripts.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera &amp; Background Scripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera &amp; Background Scripts/Repeater.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Panel/Scrolling.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera &amp; Background Scripts/Parallax.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/GamePlayManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Platforms Scripts/PlatformSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Platforms Scripts/ScriptsBoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/ScoreManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/GameManger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/GameMenuManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RFeg7VPg2TlwGhMx4MJb9SW1nG" />
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="do_not_show_Android_plugin_suggestion" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ec1699e-10d6-4380-9ef2-125f10a25095" name="Default Changelist" comment="" />
+      <created>1569267379528</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569267379528</updated>
+      <workItem from="1569267381443" duration="1074000" />
+      <workItem from="1569323761652" duration="2262000" />
+      <workItem from="1569326477290" duration="20000" />
+      <workItem from="1569326536441" duration="190000" />
+      <workItem from="1569355322279" duration="1217000" />
+      <workItem from="1569360218232" duration="6208000" />
+      <workItem from="1569369493339" duration="1128000" />
+      <workItem from="1569373787518" duration="633000" />
+      <workItem from="1569565360695" duration="1001000" />
+      <workItem from="1569567539607" duration="2351000" />
+      <workItem from="1570467755270" duration="6734000" />
+      <workItem from="1570948065087" duration="3530000" />
+      <workItem from="1571370610800" duration="2925000" />
+      <workItem from="1571397285919" duration="516000" />
+      <workItem from="1571398302457" duration="2432000" />
+      <workItem from="1571400936634" duration="1290000" />
+      <workItem from="1571554589205" duration="435000" />
+      <workItem from="1571563984399" duration="5552000" />
+      <workItem from="1571586708879" duration="3869000" />
+      <workItem from="1571678280468" duration="1442000" />
+      <workItem from="1571780816950" duration="69000" />
+      <workItem from="1571849629186" duration="2000000" />
+      <workItem from="1572273141217" duration="1347000" />
+      <workItem from="1572285208928" duration="3677000" />
+      <workItem from="1572334816349" duration="570000" />
+      <workItem from="1572498538400" duration="4055000" />
+      <workItem from="1572504967369" duration="1904000" />
+      <workItem from="1572576873691" duration="554000" />
+      <workItem from="1572578570409" duration="1910000" />
+      <workItem from="1572590628290" duration="882000" />
+      <workItem from="1572695392286" duration="535000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
