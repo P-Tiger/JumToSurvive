@@ -1,2 +1,2 @@
 # JumToSurvive
-Game
+* Game
