@@ -1,7 +1,5 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using Random = UnityEngine.Random;
-using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,7 +17,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioClip _audioClipBoom;
     [SerializeField] private AudioClip _audioClipCoins;
     [SerializeField] private GameObject spawn;
-
 
     private Vector3 _positionSpawn;
     private bool _initialPush; 
@@ -42,7 +39,6 @@ public class PlayerController : MonoBehaviour
         Coins = 0;
         checkScore();
         checkSound();
-        
     }
 
     #region Check Score
@@ -77,7 +73,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        #region Chedck die and show panel
+        #region Check die and show panel
         if (_died)
         {
             if (Coins >= 25)
@@ -121,7 +117,7 @@ public class PlayerController : MonoBehaviour
     {
         if (_died) return;
 
-        #region input A and D
+        #region Joystick
 
         float Horizontal = _DynamicJoystick.Horizontal;
         _rigibody.velocity = new Vector2(Horizontal * moveSpeed, _rigibody.velocity.y);
@@ -265,4 +261,12 @@ public class PlayerController : MonoBehaviour
         }
     }
     #endregion
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("LeftRightBox"))
+        {
+            _rigibody.velocity = new Vector2(0, _rigibody.velocity.y);
+        }
+    }
 }

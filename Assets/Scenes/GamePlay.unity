@@ -541,10 +541,11 @@ GameObject:
   - component: {fileID: 148892708}
   - component: {fileID: 148892710}
   - component: {fileID: 148892709}
+  - component: {fileID: 148892711}
   m_Layer: 0
   m_Name: Left And Right BoxCollision
   m_TagString: LeftRightBox
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -571,12 +572,12 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 148892707}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: cc98648ce5af60040bbac7409ca9cf08, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -3, y: 0}
-  m_Size: {x: 0.2, y: 10}
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.01, y: 10}
   m_Direction: 0
 --- !u!70 &148892710
 CapsuleCollider2D:
@@ -587,13 +588,27 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 148892707}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: cc98648ce5af60040bbac7409ca9cf08, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 3, y: 0}
-  m_Size: {x: 0.2, y: 10}
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.01, y: 10}
   m_Direction: 0
+--- !u!114 &148892711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148892707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bdfbee7cb13c3e4883d300f7deb2196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CapsuleRight: {fileID: 148892710}
+  CapsuleLeft: {fileID: 148892709}
 --- !u!1 &151528857
 GameObject:
   m_ObjectHideFlags: 0
@@ -781,7 +796,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -5}
+  m_Offset: {x: 0, y: -5.0468664}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -792,7 +807,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5, y: 0.2}
+  m_Size: {x: 5, y: 0.093732834}
   m_EdgeRadius: 0
 --- !u!1001 &315897752
 PrefabInstance:
@@ -4509,6 +4524,11 @@ PrefabInstance:
       propertyPath: _audioClipCoins
       value: 
       objectReference: {fileID: 8300000, guid: ab8b3c46b283faeb0bb05905f956b5a2, type: 3}
+    - target: {fileID: 3582488409304640997, guid: 37cb0d2d4bb8c5809af3d09879fda29c,
+        type: 3}
+      propertyPath: DeadZone
+      value: 
+      objectReference: {fileID: 148892707}
     - target: {fileID: 3582488409304641049, guid: 37cb0d2d4bb8c5809af3d09879fda29c,
         type: 3}
       propertyPath: m_BodyType
